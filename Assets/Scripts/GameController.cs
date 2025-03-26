@@ -25,6 +25,8 @@ public class GameController : MonoBehaviour
             GameObject Temp = Instantiate(MonsterGo);
             Temp.transform.position = new Vector3(Random.Range(-10, 10), Random.Range(-4, 4), 0.0f);
         }
+
+        
         if (Input.GetMouseButtonDown(0))
         {
 
